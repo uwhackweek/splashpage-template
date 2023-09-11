@@ -10,8 +10,8 @@ banner:
   end_date: XX Month
   year: 2023
   location: Seattle, WA
-# Add a button right under the top (e.g. JupyterBook, url can be local file or https://)
-  # links:
+# Add a button link right under the top (e.g. JupyterBook, url can be local file or https://)
+  links:
   # - url: intro.html
   #   title: Event Jupyter Book
   #   new_window: false
