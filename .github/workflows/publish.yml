@@ -15,7 +15,7 @@ permissions:
   id-token: write
 
 jobs:
-  # Build JupyterBook Website
+  # Build Website
   build:
     runs-on: ubuntu-latest
     defaults:
@@ -31,7 +31,7 @@ jobs:
           environment-file: environment.yml
           cache-environment: true
 
-      - name: Build JupyterBook
+      - name: Build Website
         shell: bash -el {0}
         run: |
           ./scripts/build_resources.sh

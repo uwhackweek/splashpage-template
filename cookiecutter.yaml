@@ -8,12 +8,13 @@ banner:
   description: An awesome learning event.
   start_date: XX Month
   end_date: XX Month
-  year: 2022
+  year: 2023
   location: Seattle, WA
-  links:
-  - url: intro.html
-    title: Event Jupyter Book
-    new_window: false
+# Add a button right under the top (e.g. JupyterBook, url can be local file or https://)
+  # links:
+  # - url: intro.html
+  #   title: Event Jupyter Book
+  #   new_window: false
   image: https://geohackweek.github.io/assets/images/banner.jpg
 # The opening session of the event with UTC offset
 event_countdown: "2024-08-07T08:30:00-07:00"
@@ -26,8 +27,8 @@ about:
     - url: '#'
       title: A sample link
       new_window: True
-applicant_info: UW Hackweek 2022 will take place in October 2022 (virtual or in-person
-  TBD). Applications have not yet opened, but should be anticipated in September 2022.
+applicant_info: UW Hackweek 2023 will take place in October 2023 (virtual or in-person
+  TBD). Applications have not yet opened, but should be anticipated in September 2023.
 team:
   !include team.yaml
 schedule:
