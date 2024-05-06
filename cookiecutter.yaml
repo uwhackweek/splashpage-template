@@ -33,7 +33,7 @@ applicant_info: UW Hackweek 2023 will take place in October 2023 (virtual or in-
 #redirect:
 #    url: https://go.somehwere.else
 team:
-  !include team.yaml
+  !include team/team.yaml
 schedule:
   !include schedule.yaml
 sponsors:

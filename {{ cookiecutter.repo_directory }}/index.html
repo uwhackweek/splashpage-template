@@ -404,7 +404,7 @@
                             {%- for social in person['social'] %}
                             <li class="list-inline-item">
                                 <a href="{{social['link']}}">
-                                    <i class="{{social['icon_pack']}} fa-{{social['icon']}}"></i>
+                                    <i class="fab fa-{{social['icon']}}"></i>
                                 </a>
                             </li>
                             {%- endfor %}
@@ -458,7 +458,7 @@
                                                 {%- for social in person['social'] %}
                                                 <li class="list-inline-item">
                                                     <a href="{{social['link']}}">
-                                                        <i class="{{social['icon_pack']}} fa-{{social['icon']}}"></i>
+                                                        <i class="fab fa-{{social['icon']}}"></i>
                                                     </a>
                                                 </li>
                                                 {%- endfor %}
@@ -485,7 +485,7 @@
                                         <h5>Interests / Expertise</h5>
                                         <ul>
                                             {%- for ex in person['expertise'] %}
-                                            <li>{{ex}}</li>
+                                                <li>{{ex}}</li>
                                             {%- endfor %}
                                         </ul>
                                     </div>
