@@ -4,6 +4,12 @@
 <head>
     <title>{{ cookiecutter.name }}</title>
 
+    {%- if 'redirect' in cookiecutter %}
+    <meta http-equiv="refresh" content="0; {{cookiecutter.redirect.url}}">
+    <script>
+         window.location.replace("{{cookiecutter.redirect.url}}");
+    </script>
+    {% endif %}
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
