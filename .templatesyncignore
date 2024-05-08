@@ -1,0 +1,10 @@
+# THIS FILE CANNOT BE SYNCED
+# use glob patterns as in .gitignore
+
+# may want to ignore in your implementation (uncomment the line with the filename [pattern])
+
+# configuration files
+# cookiecutter.yaml
+
+# team member files
+# team/*-*
